@@ -54,7 +54,7 @@ namespace UI
             bool startAsServer = serverModeToggle != null && serverModeToggle.isOn;
 
             string username = string.IsNullOrWhiteSpace(usernameInputField.text)
-                ? "Jugador"
+                ? "default"
                 : usernameInputField.text.Trim();
             NetworkManager.Instance.localUsername = username;
 

@@ -3705,11 +3705,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 391d0739cc020c04ca59a014b03165a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChatUI
-  _scrollRect: {fileID: 800632641}
-  _contentParent: {fileID: 457704121}
-  _messageEntryPrefab: {fileID: 7329094557066655499, guid: a4cfc819ebdaaab41904653b2a4c4eb0, type: 3}
-  _messageInputField: {fileID: 616461163}
-  _sendButton: {fileID: 592625024}
+  scrollRect: {fileID: 800632641}
+  contentParent: {fileID: 457704121}
+  messageEntryPrefab: {fileID: 7329094557066655499, guid: a4cfc819ebdaaab41904653b2a4c4eb0, type: 3}
+  messageInputField: {fileID: 616461163}
+  sendButton: {fileID: 592625024}
 --- !u!1 &1638026026
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,14 +5007,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74f29ca220445de4eb3a95872e91c848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ConnectionUI
-  _serverModeToggle: {fileID: 432071615}
-  _usernameInputField: {fileID: 1010188803}
-  _ipInputField: {fileID: 2034430196}
-  _portInputField: {fileID: 611486739}
-  _connectButton: {fileID: 1785791168}
-  _statusText: {fileID: 1333567077}
-  _connectionPanel: {fileID: 2137343987}
-  _chatPanel: {fileID: 1632720044}
+  serverModeToggle: {fileID: 432071615}
+  usernameInputField: {fileID: 1010188803}
+  ipInputField: {fileID: 2034430196}
+  portInputField: {fileID: 611486739}
+  connectButton: {fileID: 1785791168}
+  statusText: {fileID: 1333567077}
+  connectionPanel: {fileID: 2137343987}
+  chatPanel: {fileID: 1632720044}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
